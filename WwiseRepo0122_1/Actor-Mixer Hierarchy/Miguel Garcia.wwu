@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{98953654-FE11-4575-8AF5-DCDF70D8C651}" SchemaVersion="119" RootDocumentID="{291776BB-B34C-4621-A1C9-01CFF52DF9AA}" ParentDocumentID="{291776BB-B34C-4621-A1C9-01CFF52DF9AA}">
+	<AudioObjects>
+		<WorkUnit Name="Miguel Garcia" ID="{98953654-FE11-4575-8AF5-DCDF70D8C651}" OwnerID="{291776BB-B34C-4621-A1C9-01CFF52DF9AA}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="DUCK" ID="{3BCED4DC-E3D7-450E-BB14-D115186B6B68}" ShortID="190711851">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C739A821-220C-455A-A45C-EAAC8A564D2E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87D8B7E4-DC58-4593-8442-23CC1AD8A91A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cartoon, Animal, Duck, Quack, Whistle, Single 01 SND15192" ID="{37437C8A-D60E-4009-8069-7D425831DEE5}">
+							<Language>SFX</Language>
+							<AudioFile>Cartoon, Animal, Duck, Quack, Whistle, Single 01 SND15192.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="967450603"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Cartoon, Animal, Duck, Quack, Whistle, Single 01 SND15192" ID="{37437C8A-D60E-4009-8069-7D425831DEE5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
