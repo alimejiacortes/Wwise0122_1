@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2128590-125F-4063-9095-DCF7E6267306}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="siu" ID="{D2128590-125F-4063-9095-DCF7E6267306}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AMAPOLA ROUGH MIX 4 - 01 Start 2" ID="{544971F9-3E90-4EA1-A9B4-3EC135F26A3F}" ShortID="1030131656">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C739A821-220C-455A-A45C-EAAC8A564D2E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87D8B7E4-DC58-4593-8442-23CC1AD8A91A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMAPOLA ROUGH MIX 4 - 01 Start 2" ID="{06F90A0B-2E6A-43CB-B557-309B7F80C597}">
+							<Language>SFX</Language>
+							<AudioFile>AMAPOLA ROUGH MIX 4 - 01 Start 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="951210689"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMAPOLA ROUGH MIX 4 - 01 Start 2" ID="{06F90A0B-2E6A-43CB-B557-309B7F80C597}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
