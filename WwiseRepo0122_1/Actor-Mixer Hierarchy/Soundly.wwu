@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7E9D2919-4665-4DE0-A320-07B0C57816D8}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Soundly" ID="{7E9D2919-4665-4DE0-A320-07B0C57816D8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Air" ID="{31FB9316-F4A5-4740-B572-E0F0513818F0}" ShortID="314269325">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND15674"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1722391796siUOPWkvjQu3fgWEXAl&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND15674/sfy_nMvBGMLTGBtIeJYTxBnnFLdDcHKBxB"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="4.9554583333333335"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/hannaluttmannc/Documents/Soundly Audio/Diseño sonoro 10mo tri/Air, Blow, Across Top Of Metal Pipe SND15674.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C739A821-220C-455A-A45C-EAAC8A564D2E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87D8B7E4-DC58-4593-8442-23CC1AD8A91A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Air, Blow, Across Top Of Metal Pipe SND15674" ID="{1C4DF5B9-BD1C-41B5-A9E5-CEECC05779DF}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND15674"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Air, Blow, Across Top Of Metal Pipe SND15674.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="760344160"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Air, Blow, Across Top Of Metal Pipe SND15674" ID="{1C4DF5B9-BD1C-41B5-A9E5-CEECC05779DF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
